@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap');
+
+p {font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 14pt;
+}
+h1 {font-family: 'Bebas Neue', cursive;
+    font-size: 56pt;
+    text-shadow: 3px 3px #999999;
+	  text-align: center;
+    padding-top: 10px;
+    margin-bottom: auto;
+    font-style: italic
+}
+/* Selectors that allow for dynamic, animated background */
+body {
+    background: linear-gradient(-75deg, #b27355, #677e64, #5f6d97, #828282, #8b4549);
+    background-size: 400% 400%;
+    animation: gradient 45s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 25%;
+    }
+    50% {
+        background-position: 100% 45%;
+    }
+    100% {
+        background-position: 0% 75%;
+    }
+}
+/* Puzzle design */
+#controls,
+#puzzlearea {
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+}
+#puzzlearea {
+	font-size: 32px;
+  font-family: 'Josefin Sans', sans-serif;
+	height: 400px;
+	padding: 0px;
+	position: relative;
+}
+#controls {
+	padding-top: 10px;
+	text-align: center;
+}
+.puzzlepiece {
+	border: 2px solid black;
+	height: 96px;
+	line-height: 96px;
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+	width: 96px;
+}

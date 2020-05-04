@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Login</title>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta charset = "utf-8">
+    <link href = "fifteen.gif"
+		      type = "image/gif" rel = "shortcut icon" />
+    <link rel = "stylesheet" type = "text/css" href = "login_style.css">
+    <script language="javascript" type="text/javascript" src="formSubmit.js"></script>
+  </head>
+
+  <body>
+  <div class = "login-page">
+    <div class = "form">
+      <p class = "form_title">Enter your name below</p>
+       <!-- Needed to include POST method in order to copy data to PHP file -->
+      <form action="fifteen.php" method="POST">
+        <input name="name" type="text" placeholder="name"/>
+        <button type="submit" name="submit">LOGIN</button>
+      </form>
+    </div>
+  </div>
+  </body>
+</html>

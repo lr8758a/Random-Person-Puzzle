@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap');
+
+ /* Selectors that allow for dynamic, animated backgrounf */
+body{
+  background: linear-gradient(-75deg, #b27355, #677e64, #5f6d97, #828282, #8b4549);
+  background-size: 400% 400%;
+  animation: gradient 45s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 25%;
+    }
+    50% {
+        background-position: 100% 45%;
+    }
+    100% {
+        background-position: 0% 75%;
+    }
+}
+/* Login Window Design */
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  background: #102b57;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form_title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: 	#edeeed;
+}
+/* Input Field Design */
+.form input {
+  font-family: 'Josefin Sans', sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+/* Input Field Design */
+.form button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  outline: 0;
+  letter-spacing: .1em;
+  padding: 15px;
+  width: 100%;
+  border: 0;
+  margin: 0px 0px 8px;
+  color: #FFFFFF;
+  background: #17a589;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #148f77;
+}
