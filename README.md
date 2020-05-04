@@ -7,3 +7,6 @@ HOW TO USE:
 5. Enter your name in the input field
 6. Solve puzzle, or click on the shuffle button to get a new arrangement of squares
 7. Refresh page for new, random puzzle
+
+Repo Link:
+https://github.com/lr8758a/Random-Person-Puzzle.git
